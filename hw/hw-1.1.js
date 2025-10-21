@@ -1,8 +1,8 @@
 let vox = s9
 
 vox.set({inst: 1, bank: 'vox.borges', 
-  i: 8, dur:ms(34), lc:0.3, vol:0.5, re:0.5, lag:ms(1)
+  i: 8, dur:btms(34), hpf:0.3, vol:0.5, reverb:0.5, lag:btms(1)
 })
-vox.p._rate.noise(0.75,1,1/4)
+vox._rate.noise(.25,.75,1)
 vox.e.once()
 vox.m.set(1)
