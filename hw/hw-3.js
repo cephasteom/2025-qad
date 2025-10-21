@@ -1,4 +1,4 @@
-// d.fetch('https://zendata.cephasteom.co.uk/api/book/7', 'holywrit')
+// d.fetch('http://localhost:6060/_data/hw_book-7.json', 'holywrit')
 
 let kick = s0
 let clap = s1
